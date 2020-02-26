@@ -1,6 +1,8 @@
 # fizzbuzz
 HackerRank Challenge - Javascript Node.js
 
+let n = 15
+
 function fizzBuzz(n) {
   for (var i=1; i <= 20; i++)
   {
@@ -14,3 +16,20 @@ function fizzBuzz(n) {
           console.log(i);
   }
  }
+
+//output:
+//1
+//2
+//Fizz
+//4
+//Buzz
+//6
+//7
+//8
+//9
+//Buzz
+//11
+//12
+//13
+//14
+//FizzBuzz
