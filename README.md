@@ -1,7 +1,7 @@
 # fizzbuzz
 HackerRank Challenge - Javascript Node.js
 
-
+function fizzBuzz(n) {
   for (var i=1; i <= 20; i++)
   {
       if (i % 15 == 0)
@@ -13,3 +13,4 @@ HackerRank Challenge - Javascript Node.js
       else
           console.log(i);
   }
+ }
